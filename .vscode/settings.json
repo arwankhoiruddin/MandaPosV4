@@ -1,6 +1,6 @@
 {
     "git.confirmSync": false,
-    "git.enableCommitSigning": true,
+    "git.enableCommitSigning": false,
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
