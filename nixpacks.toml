@@ -1,0 +1,25 @@
+[php]
+extensions = [
+    "curl",
+    "gd",
+    "mbstring",
+    "intl",
+    "zip",
+    "pdo",
+    "pdo_mysql",
+    "pdo_pgsql",
+    "bcmath",
+    "xml",
+    "json",
+    "fileinfo",
+    "openssl",
+    "tokenizer"
+]
+
+[php.composer]
+install = true
+
+[node]
+version = "22"
+
+startCommand = "bash scripts/start-railway.sh"
